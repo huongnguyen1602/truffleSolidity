@@ -49,7 +49,7 @@ module.exports = {
      network_id: "*",       // Any network (default: none)
     },
     //
-    testnest: {
+    testnest: { //truffle migrate --network testnest
       provider: () => new HDWalletProvider(
         PrivateKeys, `https://data-seed-prebsc-1-s1.binance.org:8545`
       ),
